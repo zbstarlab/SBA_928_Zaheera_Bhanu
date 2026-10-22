@@ -1,0 +1,224 @@
+{
+  "test_sample_size": 5,
+  "subgroup_metrics": [
+    {
+      "dimension": "age_group",
+      "group": "35-49",
+      "sample_size": 1,
+      "original_token_f1": 0.0741,
+      "fine_tuned_token_f1": 0.1404,
+      "difference_token_f1": 0.0663,
+      "original_format_score": 0.0,
+      "fine_tuned_format_score": 0.3333,
+      "difference_format_score": 0.3333,
+      "original_exact_match": 0.0,
+      "fine_tuned_exact_match": 0.0,
+      "difference_exact_match": 0.0,
+      "interpretation": "Insufficient sample for reliable subgroup conclusions"
+    },
+    {
+      "dimension": "age_group",
+      "group": "50+",
+      "sample_size": 2,
+      "original_token_f1": 0.0,
+      "fine_tuned_token_f1": 0.5115,
+      "difference_token_f1": 0.5115,
+      "original_format_score": 0.0,
+      "fine_tuned_format_score": 0.6667,
+      "difference_format_score": 0.6667,
+      "original_exact_match": 0.0,
+      "fine_tuned_exact_match": 0.0,
+      "difference_exact_match": 0.0,
+      "interpretation": "Insufficient sample for reliable subgroup conclusions"
+    },
+    {
+      "dimension": "age_group",
+      "group": "Under 35",
+      "sample_size": 2,
+      "original_token_f1": 0.1032,
+      "fine_tuned_token_f1": 0.4456,
+      "difference_token_f1": 0.3424,
+      "original_format_score": 0.0,
+      "fine_tuned_format_score": 0.6667,
+      "difference_format_score": 0.6667,
+      "original_exact_match": 0.0,
+      "fine_tuned_exact_match": 0.0,
+      "difference_exact_match": 0.0,
+      "interpretation": "Insufficient sample for reliable subgroup conclusions"
+    },
+    {
+      "dimension": "product_category",
+      "group": "Dresses",
+      "sample_size": 3,
+      "original_token_f1": 0.0564,
+      "fine_tuned_token_f1": 0.3223,
+      "difference_token_f1": 0.2659,
+      "original_format_score": 0.0,
+      "fine_tuned_format_score": 0.5556,
+      "difference_format_score": 0.5556,
+      "original_exact_match": 0.0,
+      "fine_tuned_exact_match": 0.0,
+      "difference_exact_match": 0.0,
+      "interpretation": "Insufficient sample for reliable subgroup conclusions"
+    },
+    {
+      "dimension": "product_category",
+      "group": "Knits",
+      "sample_size": 1,
+      "original_token_f1": 0.0,
+      "fine_tuned_token_f1": 0.5714,
+      "difference_token_f1": 0.5714,
+      "original_format_score": 0.0,
+      "fine_tuned_format_score": 0.6667,
+      "difference_format_score": 0.6667,
+      "original_exact_match": 0.0,
+      "fine_tuned_exact_match": 0.0,
+      "difference_exact_match": 0.0,
+      "interpretation": "Insufficient sample for reliable subgroup conclusions"
+    },
+    {
+      "dimension": "product_category",
+      "group": "Pants",
+      "sample_size": 1,
+      "original_token_f1": 0.1111,
+      "fine_tuned_token_f1": 0.5161,
+      "difference_token_f1": 0.405,
+      "original_format_score": 0.0,
+      "fine_tuned_format_score": 0.6667,
+      "difference_format_score": 0.6667,
+      "original_exact_match": 0.0,
+      "fine_tuned_exact_match": 0.0,
+      "difference_exact_match": 0.0,
+      "interpretation": "Insufficient sample for reliable subgroup conclusions"
+    },
+    {
+      "dimension": "rating_group",
+      "group": "High rating (4-5)",
+      "sample_size": 4,
+      "original_token_f1": 0.0516,
+      "fine_tuned_token_f1": 0.4785,
+      "difference_token_f1": 0.427,
+      "original_format_score": 0.0,
+      "fine_tuned_format_score": 0.6667,
+      "difference_format_score": 0.6667,
+      "original_exact_match": 0.0,
+      "fine_tuned_exact_match": 0.0,
+      "difference_exact_match": 0.0,
+      "interpretation": "Insufficient sample for reliable subgroup conclusions"
+    },
+    {
+      "dimension": "rating_group",
+      "group": "Low rating (1-3)",
+      "sample_size": 1,
+      "original_token_f1": 0.0741,
+      "fine_tuned_token_f1": 0.1404,
+      "difference_token_f1": 0.0663,
+      "original_format_score": 0.0,
+      "fine_tuned_format_score": 0.3333,
+      "difference_format_score": 0.3333,
+      "original_exact_match": 0.0,
+      "fine_tuned_exact_match": 0.0,
+      "difference_exact_match": 0.0,
+      "interpretation": "Insufficient sample for reliable subgroup conclusions"
+    }
+  ],
+  "observed_performance_gaps": [
+    {
+      "dimension": "age_group",
+      "metric": "token_f1",
+      "observed_gap": 0.3711,
+      "smallest_group_size": 1,
+      "reliable_fairness_conclusion": false
+    },
+    {
+      "dimension": "age_group",
+      "metric": "format_score",
+      "observed_gap": 0.3334,
+      "smallest_group_size": 1,
+      "reliable_fairness_conclusion": false
+    },
+    {
+      "dimension": "product_category",
+      "metric": "token_f1",
+      "observed_gap": 0.2491,
+      "smallest_group_size": 1,
+      "reliable_fairness_conclusion": false
+    },
+    {
+      "dimension": "product_category",
+      "metric": "format_score",
+      "observed_gap": 0.1111,
+      "smallest_group_size": 1,
+      "reliable_fairness_conclusion": false
+    },
+    {
+      "dimension": "rating_group",
+      "metric": "token_f1",
+      "observed_gap": 0.3381,
+      "smallest_group_size": 1,
+      "reliable_fairness_conclusion": false
+    },
+    {
+      "dimension": "rating_group",
+      "metric": "format_score",
+      "observed_gap": 0.3334,
+      "smallest_group_size": 1,
+      "reliable_fairness_conclusion": false
+    }
+  ],
+  "examples_for_human_review": [
+    {
+      "review_id": "REV-00160",
+      "category": "Knits",
+      "reason": "Incomplete output format",
+      "response": "Positive feature: Red color. Primary problem: Orange color. Recommended: Knits",
+      "review": "Love this top! red color is a bit orangey for my taste but overall a fabulous piece."
+    },
+    {
+      "review_id": "REV-00004",
+      "category": "Dresses",
+      "reason": "Incomplete output format",
+      "response": "Positive feature: It is very small. Primary problem: It is too constricting.",
+      "review": "The dress is very beautiful and looks expensive. it will make a nice wedding dress. it does run quite small though. i am 5'2\" and 90-95lbs with a straight figure, but the 00p was too constricting."
+    },
+    {
+      "review_id": "REV-00288",
+      "category": "Pants",
+      "reason": "Incomplete output format",
+      "response": "Positive feature: They are comfortable and comfortable. Primary problem: They run a little large.",
+      "review": "I knew i had to have these when i saw them on one of the retailer store instagrams. i bought them in the blue color combo and they are very comfortable and can be dressed up for work or paired with more casual clothing because of the material. they run a little large and have a lot of stretch so i would size down."
+    },
+    {
+      "review_id": "REV-00230",
+      "category": "Dresses",
+      "reason": "Incomplete output format",
+      "response": "Positive feature: It is a dress that is a throwback to the 20s and 30s. It drapes nicely and drapes nicely. It is a dress that is a throwback to the 20s and 30s. It is a dress that is a throwback to the 20s and 30s. It is a dress that is a throwback to the 20s and 30s. It is a dress that is a throwback to the 20s and 30s. It is a dress that is a throwback to the 20s and 30s. It is",
+      "review": "This dress is elegant and really lovely. it looks like a throwback to the 20s and 30s. it drapes nicely and i think it would be flattering on most body types. and this is why i am recommending it. but be warned: it runs large.\n\nthe problem with the dress is that the slip might as well not be there at all--it is completely sheer. for example, i have a couple tattoos and you can see them right through the fabric, which is not the look i'm going for. this might be a deal breaker for some. for me, i"
+    },
+    {
+      "review_id": "REV-00132",
+      "category": "Dresses",
+      "reason": "Incomplete output format",
+      "response": "Positive feature: Very soft and comfortable. Primary problem: No need to wear shoes.",
+      "review": "Extremely soft and comfortable. fit very well. should travel really well."
+    }
+  ],
+  "limitations": [
+    "Only five held-out test records are available",
+    "Subgroup sample sizes are too small for reliable conclusions",
+    "The dataset represents one clothing retail context",
+    "Reviewer age is available but gender and region are not",
+    "Token overlap and format scores cannot prove factual fairness",
+    "Some review text was truncated during data preparation"
+  ],
+  "fairness_strategies": [
+    "Expand and balance the evaluation dataset across age groups",
+    "Include more clothing categories and rating distributions",
+    "Measure model performance separately for each subgroup",
+    "Use human reviewers to check unsupported recommendations",
+    "Improve representation of underrepresented review types",
+    "Collect regional data only when appropriate and lawful",
+    "Avoid claiming demographic fairness without suitable evidence",
+    "Repeat evaluations using larger independent test samples"
+  ]
+}

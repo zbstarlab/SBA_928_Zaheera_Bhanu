@@ -1,0 +1,17 @@
+
+{
+  "model_name": "google/flan-t5-small",
+  "output_dir": "artifacts/models/flan-t5-sba-928",
+  "train_file": "data/processed/train.jsonl",
+  "validation_file": "data/processed/validation.jsonl",
+  "test_file": "data/processed/test.jsonl",
+  "seed": 42,
+  "max_source_length": 512,
+  "max_target_length": 128,
+  "num_train_epochs": 3,
+  "learning_rate": 0.0001,
+  "per_device_train_batch_size": 1,
+  "per_device_eval_batch_size": 1,
+  "gradient_accumulation_steps": 4,
+  "weight_decay": 0.01
+}

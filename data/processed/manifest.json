@@ -1,0 +1,24 @@
+{
+  "source_dataset": "data/raw/Womens Clothing E-Commerce Reviews.csv",
+  "annotations_file": "data/raw/review_annotations.csv",
+  "random_seed": 42,
+  "sample_size_before_annotation": 300,
+  "total_records": 20,
+  "split_counts": {
+    "train": 10,
+    "validation": 5,
+    "test": 5
+  },
+  "file_hashes": {
+    "data/processed/train.jsonl": "db28e06923a5ef893c4ca61a7d8f4e22837c7171661e1734db67dd357019d731",
+    "data/processed/validation.jsonl": "9a4642a82fcc7a69a5da850cadeed953292c9e3297b15275d7d78e1384c9612c",
+    "data/processed/test.jsonl": "831c82c54be072ea2a3d8d95a1bf1ea87990e5a55d1197868014ac8bb4890f52",
+    "data/processed/annotated_market_reviews.csv": "2affc08a40c68be8627ce677781c6a69a5bf9588f0509cba6d25f93b7651affc"
+  },
+  "annotation_method": "Human-reviewed customer insights",
+  "limitations": [
+    "Small annotated sample",
+    "Some original review text is truncated",
+    "No geographic or gender comparison available"
+  ]
+}

@@ -4,7 +4,14 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "accelerate>=1.15.0",
+    "datasets>=5.1.0",
+    "numpy>=2.5.4",
+    "sentencepiece>=0.2.2",
+    "torch>=2.14.1",
+    "transformers>=5.20.2",
+]
 
 [project.scripts]
 sba-928-zaheera-bhanu = "sba_928_zaheera_bhanu:main"
@@ -12,3 +19,9 @@ sba-928-zaheera-bhanu = "sba_928_zaheera_bhanu:main"
 [build-system]
 requires = ["uv_build>=0.12.17,<0.13.0"]
 build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+    "ruff>=0.17.1",
+]

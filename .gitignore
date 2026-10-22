@@ -8,3 +8,20 @@ wheels/
 
 # Virtual environments
 .venv
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.venv/
+
+# Large model files
+artifacts/models/flan-t5-sba-928/checkpoints/
+artifacts/models/flan-t5-sba-928/final/
+
+# Backups
+data/backup/

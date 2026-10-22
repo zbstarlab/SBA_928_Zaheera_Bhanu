@@ -1,0 +1,85 @@
+{
+  "model": "google/flan-t5-small",
+  "training_examples": 10,
+  "validation_examples": 5,
+  "training_metrics": {
+    "train_runtime": 10.7439,
+    "train_samples_per_second": 2.792,
+    "train_steps_per_second": 0.838,
+    "total_flos": 914929827840.0,
+    "train_loss": 10.182419035169813,
+    "epoch": 3.0
+  },
+  "validation_metrics": {
+    "eval_loss": 2.4569191932678223,
+    "eval_runtime": 0.08,
+    "eval_samples_per_second": 62.487,
+    "eval_steps_per_second": 62.487,
+    "epoch": 3.0
+  },
+  "training_history": [
+    {
+      "loss": 11.38437525431315,
+      "grad_norm": 18.480749130249023,
+      "learning_rate": 7.777777777777778e-05,
+      "epoch": 1.0,
+      "step": 3
+    },
+    {
+      "eval_loss": 2.7127676010131836,
+      "eval_runtime": 0.1863,
+      "eval_samples_per_second": 26.833,
+      "eval_steps_per_second": 26.833,
+      "epoch": 1.0,
+      "step": 3
+    },
+    {
+      "loss": 9.962690989176432,
+      "grad_norm": 13.407501220703125,
+      "learning_rate": 4.4444444444444447e-05,
+      "epoch": 2.0,
+      "step": 6
+    },
+    {
+      "eval_loss": 2.51574444770813,
+      "eval_runtime": 0.072,
+      "eval_samples_per_second": 69.398,
+      "eval_steps_per_second": 69.398,
+      "epoch": 2.0,
+      "step": 6
+    },
+    {
+      "loss": 9.200190862019857,
+      "grad_norm": 14.379327774047852,
+      "learning_rate": 1.1111111111111112e-05,
+      "epoch": 3.0,
+      "step": 9
+    },
+    {
+      "eval_loss": 2.4569191932678223,
+      "eval_runtime": 0.0719,
+      "eval_samples_per_second": 69.584,
+      "eval_steps_per_second": 69.584,
+      "epoch": 3.0,
+      "step": 9
+    },
+    {
+      "train_runtime": 10.7439,
+      "train_samples_per_second": 2.792,
+      "train_steps_per_second": 0.838,
+      "total_flos": 914929827840.0,
+      "train_loss": 10.182419035169813,
+      "epoch": 3.0,
+      "step": 9
+    },
+    {
+      "eval_loss": 2.4569191932678223,
+      "eval_runtime": 0.08,
+      "eval_samples_per_second": 62.487,
+      "eval_steps_per_second": 62.487,
+      "epoch": 3.0,
+      "step": 9
+    }
+  ],
+  "final_model_path": "artifacts/models/flan-t5-sba-928/final"
+}
